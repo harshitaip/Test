@@ -1,0 +1,91 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Styling */
+h1 {
+    color: #004080; /* Dark Blue */
+    font-size: 28px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #004080; /* Dark Blue */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #0073e6; /* Brighter Blue */
+    box-shadow: 0 0 10px rgba(0, 115, 230, 0.5);
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    background: #0073e6; /* Blue */
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #004080; /* Darker Blue */
+}
+
+/* Footer Styling */
+footer {
+    background: #004080; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-links h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #cce6ff; /* Light Blue */
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
